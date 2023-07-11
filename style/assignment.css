@@ -1,5 +1,6 @@
 body{
     font-family: 'Lato', sans-serif;
+    background: white;
 }
 
 
@@ -41,6 +42,145 @@ body{
 .banner-pera{
     color: #27272799;
     font-size: 18px;
+    line-height: 30px;
+}
+
+/* .section-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 150px;
+}
+.section-description{
+    color: #27272799;
+    text-align: center;
+    font-size: 18px;
+} */
+.discount{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 30px 0 150px;
+    background: #E554730D;
+}
+
+.discount-content{
+    max-width: 500px;
+}
+
+.discount .discount-image{
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.discount-pera{
+    color: #27272799;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+}
+.discount-title{
+    text-align: center;
+}
+#discount-btn{
+    text-align: center;
+    margin-top: 50px;
+
+}
+.discount-title-color{
+    color: #E55473;
+}
+.social-media{
+    align-items: center;
+    display: inline;
+}
+.social-media-titel{
+    text-align: center;
+    padding-top: 120px;
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+}
+.social-media-pera{
+    text-align: center;
+    color: #27272799;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    padding-bottom: 30px;
+}
+
+.social-media-post{
+    display: flex;
+    gap: 24px;
+    padding-left: 200px;
+    padding-bottom: 120px;
+}
+
+.social-media-post-size{
+    height: 250px;
+}
+
+
+.get-the-deals{
+    background-image: url('../Flower Asset/Rectangle\ 9.png');
+    width: 950px;
+    margin: 0 auto;
+}
+.contact{
+    text-align: center;
+}
+#deals{
+    padding-top: 120px;
+}
+.contact input[type="email"]{
+    margin-bottom: 120px;
+    padding: 25px 40px;
+    color: #272727;
+    border-radius: 8px;
+    background: #fff;
+    border: 0;
+    width: 40%;
+    margin-left: 20px;
+}
+#submit-btn{
+    gap: 20px;
+}
+
+.deals-border{
+    padding-bottom: 125px;
+}
+
+
+
+
+footer{
+    background: #111010;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.footer-title{
+    text-align: center;
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+}
+.footer-title-color{
+    color: #FFF;
+}
+
+.footer-pera{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+}
+.footer-p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF66;
 }
